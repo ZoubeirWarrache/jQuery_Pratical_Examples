@@ -1,0 +1,83 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.change-colors {
+    
+    padding: 20px;
+    list-style: none;
+    background-color: #ccc;
+    display: inline-block;
+}
+.change-colors li {
+    width: 20px;
+    height: 20px;
+    background-color: brown;
+    float: left;
+    margin-right: 5px;
+    cursor: pointer;
+}
+h2 {
+    text-align: center;
+}
+.test {
+    width: 800px;
+    text-align: center;
+    padding: 20px;
+    margin: auto
+}
+
+.change-colors li:first-child {
+    background-color: white;
+}
+.change-colors li:nth-child(2) {
+    background-color: red;
+}
+.change-colors li:nth-child(3) {
+    background-color: green;
+}
+.change-colors li:nth-child(4) {
+    background-color: blue;
+}
+.change-colors li:last-child {
+    background-color: orange;
+}
+
+[data-special-color='default'] .special-color {
+    color: black;
+}
+[data-special-color='red'] .special-color {
+    color: red;
+}
+[data-special-color='green'] .special-color {
+    color: green;
+}
+[data-special-color='blue'] .special-color {
+    color: blue;
+}
+[data-special-color='orange'] .special-color {
+    color: orange;
+}
+
+[data-special-color='default'] .special-background {
+    background-color: white;
+    color: black;
+}
+[data-special-color='red'] .special-background {
+    background-color: red;
+    color: white;
+}
+[data-special-color='green'] .special-background {
+    background-color: green;
+    color: white;
+}
+[data-special-color='blue'] .special-background {
+    background-color: blue;
+    color: white;
+}
+[data-special-color='orange'] .special-background {
+    background-color: orange;
+    color: white;
+}

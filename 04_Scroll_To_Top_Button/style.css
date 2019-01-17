@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+    height: 2500px;
+    margin: 0;
+    padding: 0
+}
+
+h2 { text-align: center }
+
+.scroll-top {
+    background-color: #333;
+    color: #eee;
+    width: 100px;
+    padding: 10px;
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+.scroll-top:hover { background-color: #555 }

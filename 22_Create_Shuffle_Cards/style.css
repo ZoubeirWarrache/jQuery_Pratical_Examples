@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.cards {
+    width: 800px;
+    height: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #eee;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+}
+
+.cards .card  {
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    top: 50%;
+    margin-top: -125px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cards .card-one {
+    background-color: rgb(214, 52, 52);
+}
+
+.cards .card-two {
+    background-color: rgb(22, 126, 196);
+}
+
+.cards .card-three {
+    background-color: rgb(27, 150, 23);
+}
+
+.cards .card-four {
+    background-color: rgb(209, 106, 10);
+}
+
+.cards .card-five {
+    background-color: rgb(16, 173, 139);
+}

@@ -1,0 +1,78 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.buttons-effects {
+    background-color: #eee;
+    color: #444;
+    text-align: center;
+    width: 900px;
+    padding: 20px 20px 40px;
+    margin: 40px auto;
+    border-radius: 10px;
+}
+
+.buttons-effects .buttons-effect {
+    padding: 10px 30px;
+    margin-right: 20px;
+    border: 1px solid #eee;
+    background-color: #fff;
+    position: relative;
+    font-size: 18px;
+}
+
+.buttons-effects .buttons-effect:first-of-type,
+.buttons-effects .buttons-effect:nth-of-type(2) {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.buttons-effects .buttons-effect span:last-child{
+    position: relative;
+}
+
+/* First button */
+.buttons-effects .from-left {
+    background-color: coral;
+    color: #fff;
+}
+.from-left span:first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #ff9e7b
+}
+
+/* Second button */
+.buttons-effects .from-top {
+    background-color: rgb(0, 137, 201);
+    color: #fff;
+}
+.from-top span:first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #88b7ff
+}
+
+/* Third button */
+.brd-from-left span:first-child {
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    height: 3px;
+    background-color: coral;
+}
+
+/* Fourth button */
+.brd-from-top span:first-child {
+    position: absolute;
+    left: -3px;
+    top: 0;
+    width: 3px;
+    background-color: rgb(0, 137, 201);
+}

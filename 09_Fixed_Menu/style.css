@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 3000px;
+}
+
+.fixed-menu {
+    width: 240px;
+    height: 100vh;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    left: -260px;
+}
+
+.fixed-menu .icon {
+    position: absolute;
+    right: -50px;
+    top: 10px;
+    padding: 5px;
+    background-color: #333;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}

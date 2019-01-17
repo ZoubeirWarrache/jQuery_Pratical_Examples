@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font-family: sans-serif;
+    height: 2500px;
+}
+
+.navbar-links {
+    margin:0 auto;
+    padding: 0;
+    list-style: none;
+    background-color: #333;    
+    text-align: center;
+}
+
+.navbar-links li {
+    display: inline-block;
+    padding: 15px 20px;
+    font-size: 20px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #eee;
+    margin: 0
+}
+
+.block { height: 500px; }

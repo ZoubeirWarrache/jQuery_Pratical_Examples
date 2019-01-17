@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.todo-list {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #eee;
+    border-radius: 5px;
+    text-align: center
+}
+
+.todo-list .tasks {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.todo-list .tasks li {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.todo-list .add-task .task-input {
+    width: 90%;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

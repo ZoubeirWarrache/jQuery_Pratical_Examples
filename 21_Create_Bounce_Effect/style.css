@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.buttons-effects {
+    background-color: #eee;
+    color: #444;
+    text-align: center;
+    width: 900px;
+    padding: 20px 20px 40px;
+    margin: 40px auto;
+    border-radius: 10px;
+}
+
+.buttons-effects .btn {
+    padding: 10px 30px;
+    border: 1px solid rgb(14, 128, 221);
+    border-radius: 5px;
+    background-color: rgb(14, 128, 221);
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+}
+
+.buttons-effects .btn:hover {
+    background-color: rgb(96, 161, 214);
+    border: 1px solid rgb(96, 161, 214);
+}

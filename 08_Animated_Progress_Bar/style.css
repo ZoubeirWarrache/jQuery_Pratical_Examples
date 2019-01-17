@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.animated-progress {
+    width: 350px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 40px;
+}
+
+.animated-progress span {
+    display: inline-block;
+    height: 100%;
+    color: #fff;
+    text-indent: 10px;
+    direction: rtl
+}
+
+.progress-blue span{
+    background-color: rgb(0, 107, 194);
+}
+
+.progress-red span {
+    background-color: rgb(235, 32, 32);
+}
